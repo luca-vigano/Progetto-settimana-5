@@ -1,5 +1,6 @@
 * {
     margin: 0 auto;
+    font-family: "Roboto", sans-serif;
 }
 
 .navBar {
@@ -35,6 +36,7 @@
     margin-left: 100px;
     padding: 15px;
 }
+
 .divUl {
     width: 25%;
     padding: 15px;
@@ -55,11 +57,13 @@
 
 .title h1 {
     font-size: 80px;
-    margin: 0;
+    font-family: "Spectral", serif;
 }
+
 .title p {
-font-size: 20px;
-margin: 0;
+    font-size: 20px;
+    width:50%;
+
 }
 
 .blackButton2 {
@@ -67,11 +71,79 @@ margin: 0;
     color: white;
     background-color: black;
     border-radius: 25px;
-    margin-left: 0;
+    margin-left: 213px;
+    padding: 5px 20px;
 }
 
 .title {
-    width: 30%;
+    width: 48%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.M_logo {
+    width: 48%;
+    padding-left: 200px;
+    margin: 0px;
+}
+
+.card {
+    border: 1px solid black;
+    display: flex;
+    width: 30%;
+    height: 150px;
+}
+
+.trending {
+    width: 100%;
+    display: flex;
+
+}
+
+.trending h4 {
+margin: 0;
+}
+.trending img {
+    margin: 0;
+}
+
+.cardSection {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardNumb {
+    width: 20%;
+    color:#E6E7E7;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+.cardtext {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cardtext p {
+    margin: 0;
+}
+
+.cardtext img {
+
+}
+.cardtext h4 {
+    margin: 0;
+    font-size: larger;
+}
+
+.gray {
+    color: #757575;
+}
+
+.bold {
+    font-weight: 500;
 }
