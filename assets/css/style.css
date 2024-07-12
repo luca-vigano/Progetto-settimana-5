@@ -89,7 +89,7 @@
 }
 
 .card {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     width: 30%;
     height: 150px;
@@ -124,16 +124,16 @@ margin: 0;
 .cardtext {
     width: 80%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .cardtext p {
     margin: 0;
 }
 
-.cardtext img {
-
+.cardtext div {
+    margin: 0;
 }
 .cardtext h4 {
     margin: 0;
@@ -146,4 +146,7 @@ margin: 0;
 
 .bold {
     font-weight: 500;
+}
+.imgRound {
+    border-radius: 50px;
 }
